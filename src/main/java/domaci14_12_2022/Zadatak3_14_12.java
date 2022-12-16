@@ -23,7 +23,7 @@ public class Zadatak3_14_12 {
         System.out.print("Unesite y za M: ");
         int ym = s.nextInt();
 
-        if ((xm <= xt1 || xm <= xt2) && (ym <= yt1 || ym <= yt2)) {
+        if ((xm <= xt1 && xm <= xt2) && (ym <= yt1 && ym <= yt2)) {
             System.out.println( "Kliknuto je unutar forme");
         } else {
             System.out.println("Nije kliknuto unutar forme");
