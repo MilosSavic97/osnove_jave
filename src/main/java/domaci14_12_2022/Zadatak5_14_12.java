@@ -20,8 +20,9 @@ public class Zadatak5_14_12 {
             System.out.println("Rezultat :" + (a *b));
         }else if (operator.equals("/")){
             System.out.println("Rezultat :" + (a/b));
+        }else {
+            System.out.println("Uneli ste pogresan operator");
         }
-
 
     }
 }
